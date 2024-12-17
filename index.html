@@ -1,247 +1,57 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <style> .grid-container {
-            display: grid;
-            column-gap: 50px;
-            grid-auto-flow: column;
-          } </style>
-       
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik&family=VT323&display=swap" rel="stylesheet">
-        <style>
-            body {
-                background-color: #ADD8E6;
-            }
-        </style>
-        <body>
-<p class="title">
-Hamid Ahmed
-</p>
-
-<p = class="welcome">
-    Welcome to my personal website.
-    </p>
-
-    
-    <p = class="para" style="float: left">
-
-        My name is Hamid Ahmed. I am a current student at Carleton University,
-        pursuing an honors degree in Computer Science with a specialty in
-        Software Engineering. I have experience in the following
-        programming languages: Python, HTML and CSS, C++ and Java.
-        You can usually find me at the gym or reading a book, if im not studying or working on projects.
-        </p>
-        <image src=PngItem_1247508.png class="image" ></image>
-
-
-        <style>
-            .para {
-                font-family: 'Rubik', sans-serif;
-                font-size: 20px;
-                text-align: left;
-                font-weight: bold;
-                width: 500px;
-                color: #00001a;
-                padding-left: 20px;
-                padding-top: -200px;
-                position: static;
-                grid-column: 1;
-                grid-row: 2;
-            }
-            </style>
-        
-            <style>
-        .welcome {
-            font-family: 'Rubik', sans-serif;
-            font-size: 28px;
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Ahmed</title>
+    <style>
+        body {
+            background-color: #a9a9ce;
+            color: #2c3e50;
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .content {
+            max-width: 500px;
             text-align: left;
+            padding: 30px;
+            background: #c9c9dd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2.2rem;
             font-weight: 300;
-            color: #00001a;
-            padding-left: 20px;
+            margin: 0 0 20px 0;
+            color: #171735;
         }
-        </style>
-    
-        <style>
-        .title {
-            font-family: 'Rubik', sans-serif;
-            font-size: 60px;
-            font-style:initial;
-            text-align: left;
-            font-weight: 400;
-            color: #00001a;
-            padding-left: 20px;
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #171735;
+            margin: 0 0 20px 0;
         }
-        </style>
-
-
-
-        <p class="port">    
-            My projects:
-        </p>
-        <style>
-            .port {
-                padding-top: 80px;
-                font-family: 'Rubik', sans-serif;
-                font-size: 45px;
-                font-style:initial;
-                text-align: left;
-                color: #00001a;
-                padding-left: 20px;
-
-
-            }
-
-
-        </style>
-
-        <p class="stm">
-            STM32 project.
-
-        </p>
-      <style>
-            .stm {
-                font-family: 'Rubik', sans-serif;
-                font-size: 25px;
-                text-align: left;
-                font-weight: bold;
-                width: 500px;
-                color: #00001a;
-                padding-left: 20px;
-            }
-
-
-        </style>
-
-<p class="stmpara">
-    For this project I wired and programmed an STM32 to collect the acceleration every 100ms, and the temperature every 1s. 
-    In this project, I used the stm32IDE, and programmed it in C++. 
-
-</p>
-<style>
-    .stmpara {
-        padding-top: 5px;
-        font-family: 'Rubik', sans-serif;
-        font-size: 20px;
-        text-align: auto;
-        font-weight: bold;
-        width: 500px;
-        color: #00001a;
-        padding-left: 20px;
-        
-    }
-   
-
-
-</style>
- <image src=stm.jpg class="stmimage">
-    <style>
-        .stmimage {
-            
-            width: 400px;
-            position: absolute;
-            left: 600px;
-            top: 900px;
+        hr {
+            border: none;
+            height: 1px;
+            background: #e0e0e0;
+            margin: 20px 0;
         }
     </style>
-
-
-<p class="arduino">
-    Arduinos Animation.
-
-</p>
-<style>
-    .arduino {
-        font-family: 'Rubik', sans-serif;
-        font-size: 25px;
-        text-align: left;
-        font-weight: bold;
-        width: 500px;
-        color: #00001a;
-        position: absolute;
-        top: 1500px;
-        padding-left: 20px;
-    }
-
-
-</style>
-
-<p class="arduinopara">
-I used Arduinos to take a gif, splice it into several images, 
-convert the images to bitmap, then upload the images onto an oled screen, creating a gif. 
-
-</p>
-<style>
-.arduinopara {
-    padding-top: 5px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
-    text-align: auto;
-    font-weight: bold;
-    width: 500px;
-    color: #00001a;
-    position: absolute;
-    top: 1550px;
-    padding-left: 20px;
-
-}
-
-</style>
-
-
-
-
-    <style>
-    .image{
-        grid-row: 1;
-        grid-column: 3;}
-    </style>
-
-
-<img src="animation.gif" class="animation">
-<style>
-.animation{
-    width: 200;
-    transform: rotate(90deg);
-    position: absolute;
-    left: 750px;
-    top: 1380px;
-    
-    }
-</style>
-
-<a href="https://www.linkedin.com/in/hamid-ahmed123/"><img src="linked.png" class="linked"></a>
-
-<style>
-.linked{
-    width: 20;
-    position: absolute;
-    left: 750px;
-    top: 25px;
-    width: 30px;
-    }
-</style>
-<a href="https://github.com/hamidxahmed"><img src="github.png" class="github"></a>
-<style>
-.github{
-    width: 20;
-    position: absolute;
-    left: 800px;
-    top: 25px;
-    width: 30px;
-    }
-</style>
-
-
-
-
-
-
-
-
-
-
-        </body>
-    </head>
+</head>
+<body>
+    <div class="content">
+        <h1>Hi, I'm Hamid Ahmed.</h1>
+        <p>
+            I'm an intern at Nokia, and a CS student at Carleton University. 
+        </p>
+        <hr>
+    </div>
+</body>
 </html>
+
