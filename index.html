@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hamid Ahmed — Explorer &amp; Filmmaker</title>
+    <meta name="description" content="Hamid Ahmed (@hamidxprod): explorer, traveler, and videographer. Short films from the road, the outdoors, and the air." />
+    <meta property="og:title" content="Hamid Ahmed — Explorer &amp; Filmmaker" />
+    <meta property="og:description" content="Short films from the road, the outdoors, and the air. @hamidxprod" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hamidahmed.com" />
+    <meta name="theme-color" content="#0b0d12" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="nav">
+      <a class="brand" href="#top" aria-label="Hamid Ahmed, home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 28 16 4l12 24z" /></svg>
+        <span>HAMID AHMED</span>
+      </a>
+      <nav aria-label="Sections">
+        <a href="#gallery">Gallery</a>
+        <a href="#work">Work</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">@hamidxprod</p>
+          <h1>Explorer.<br /><span class="accent">Filmmaker.</span><br />Always moving.</h1>
+          <p class="lede">I travel, get lost on purpose, and film what I find, from mountain trails to FPV drone lines over places most people never see.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" data-link="tiktok" target="_blank" rel="noopener">Watch on TikTok</a>
+            <a class="btn btn-ghost" data-link="instagram" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 400 400">
+            <defs>
+              <clipPath id="frame-clip">
+                <path d="M40 0H400V360L360 400H0V40z" />
+              </clipPath>
+              <clipPath id="sky-clip">
+                <rect width="400" height="260" />
+              </clipPath>
+              <linearGradient id="sky-warm" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#1c1422" />
+                <stop offset="0.55" stop-color="#ff5b2e" stop-opacity="0.55" />
+                <stop offset="1" stop-color="#f4c430" stop-opacity="0.75" />
+              </linearGradient>
+              <linearGradient id="sky-dusk" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#0b0d12" />
+                <stop offset="0.6" stop-color="#14323a" />
+                <stop offset="1" stop-color="#2ec4b6" stop-opacity="0.7" />
+              </linearGradient>
+              <linearGradient id="sun-fill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f4c430" />
+                <stop offset="1" stop-color="#ff5b2e" />
+              </linearGradient>
+              <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#1d1a22" />
+                <stop offset="1" stop-color="#0b0d12" />
+              </linearGradient>
+              <radialGradient id="sun-glow">
+                <stop offset="0.45" stop-color="#ff5b2e" stop-opacity="0.45" />
+                <stop offset="1" stop-color="#ff5b2e" stop-opacity="0" />
+              </radialGradient>
+              <mask id="sun-bands" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="400">
+                <rect width="400" height="400" fill="#fff" />
+                <rect y="176" width="400" height="3" />
+                <rect y="192" width="400" height="5" />
+                <rect y="208" width="400" height="7" />
+                <rect y="224" width="400" height="9" />
+                <rect y="240" width="400" height="11" />
+              </mask>
+            </defs>
+            <path class="frame-line" d="M54 14H414V374L374 414H14V54z" />
+            <g clip-path="url(#frame-clip)">
+              <rect width="400" height="260" fill="url(#sky-warm)" />
+              <rect class="sky-dusk" width="400" height="260" fill="url(#sky-dusk)" />
+              <g class="stars">
+                <rect x="72" y="54" width="4" height="4" />
+                <rect x="300" y="38" width="3" height="3" />
+                <rect x="342" y="96" width="4" height="4" />
+                <rect x="138" y="28" width="3" height="3" />
+              </g>
+              <g clip-path="url(#sky-clip)">
+                <g class="sun">
+                  <circle cx="200" cy="170" r="130" fill="url(#sun-glow)" />
+                  <circle cx="200" cy="170" r="80" fill="url(#sun-fill)" mask="url(#sun-bands)" />
+                </g>
+              </g>
+              <polygon class="ridge-back" points="-20,260 60,206 150,260" />
+              <polygon class="ridge-back" points="250,260 340,196 430,260" />
+              <polygon class="ridge-back" points="120,260 200,238 280,260" />
+              <polygon class="ridge-front" points="20,260 100,226 180,260" />
+              <polygon class="ridge-front" points="220,260 300,222 380,260" />
+              <rect y="260" width="400" height="140" fill="url(#water)" />
+              <line class="horizon" x1="0" y1="260" x2="400" y2="260" />
+              <g class="reflection">
+                <rect class="shimmer" x="125" y="272" width="150" height="3" />
+                <rect class="shimmer" x="140" y="286" width="120" height="3" />
+                <rect class="shimmer" x="152" y="300" width="96" height="3" />
+                <rect class="shimmer" x="163" y="316" width="74" height="2" />
+                <rect class="shimmer" x="174" y="334" width="52" height="2" />
+                <rect class="shimmer" x="184" y="354" width="32" height="2" />
+              </g>
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <section class="section" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-head">
+          <span class="num">01</span>
+          <h2 id="gallery-title">Gallery</h2>
+          <p>Stills pulled from my films. Tap any frame to view it full size.</p>
+        </div>
+        <div class="gallery" id="gallery-grid"></div>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-head">
+          <span class="num">02</span>
+          <h2 id="work-title">Day job</h2>
+          <p>Bachelor of Computer Science @ Carleton University</p>
+        </div>
+        <ol class="work" id="work-list"></ol>
+        <div class="cta-row">
+          <a class="btn btn-ghost" data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Let's make something.</h2>
+        <p>Collabs, shoots, travel tips, or just a hello.</p>
+        <a class="btn btn-primary btn-big" id="email-link">Email me</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Hamid Ahmed</span>
+      <span class="footer-links">
+        <a data-link="tiktok" target="_blank" rel="noopener">TikTok</a>
+        <a data-link="instagram" target="_blank" rel="noopener">Instagram</a>
+        <a data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+      </span>
+    </footer>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image" hidden>
+      <button class="lb-btn lb-close" type="button" aria-label="Close">&times;</button>
+      <button class="lb-btn lb-prev" type="button" aria-label="Previous image">&lsaquo;</button>
+      <figure class="lb-figure">
+        <img id="lightbox-img" alt="" />
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure>
+      <button class="lb-btn lb-next" type="button" aria-label="Next image">&rsaquo;</button>
+    </div>
+
+    <script src="content.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
